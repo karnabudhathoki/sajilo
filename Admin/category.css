@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:beige;
+}
+p{
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    
+}

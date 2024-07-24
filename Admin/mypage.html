@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page</title>
+    <link rel="stylesheet" href="mypage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Service</h1>
+        <div class="buttons">
+            <button class="button add-service" onclick="showForm('addForm')">Add Service</button>
+            <button class="button update-service" onclick="showForm('updateForm')">Update Service</button>
+            <button class="button delete-service" onclick="showForm('deleteForm')">Delete Service</button>
+        </div>
+
+        <div class="forms" id="addForm">
+            
+            <h2>Add Service</h2>
+            
+                <label for="serviceNameAdd">Service Name:</label>
+                <input type="text" id="serviceNameAdd" name="serviceNameAdd">
+                
+                <label for="serviceImageAdd">Service Image:</label>
+                <input type="file" id="serviceImageAdd" name="serviceImageAdd" accept="image/*">
+                
+                <!-- <label for="serviceDescriptionAdd">Service Description:</label>
+                <textarea id="serviceDescriptionAdd" name="serviceDescriptionAdd" rows="4"></textarea>
+                 -->
+                <button type="submit">Add</button>
+            
+        </div>
+
+        <div class="forms" id="updateForm">
+            <h2>Update Service</h2>
+            <form>
+                <!-- <label for="serviceIdUpdate">Service ID:</label>
+                <input type="text" id="serviceIdUpdate" name="serviceIdUpdate"> -->
+                
+                <label for="serviceNameUpdate">Service Name:</label>
+                <input type="text" id="serviceNameUpdate" name="serviceNameUpdate">
+                
+                <label for="serviceImageUpdate">Service Image:</label>
+                <input type="file" id="serviceImageUpdate" name="serviceImageUpdate" accept="image/*">
+                
+                <!-- <label for="serviceDescriptionUpdate">Service Description:</label>
+                <textarea id="serviceDescriptionUpdate" name="serviceDescriptionUpdate" rows="4"></textarea>
+                 -->
+                <button type="submit">Update</button>
+            </form>
+        </div>
+
+        <div class="forms" id="deleteForm">
+            <h2>Delete Service</h2>
+            <form>
+                <label for="serviceIdDelete">Service Name:</label>
+                <input type="text" id="serviceIdDelete" name="serviceIdDelete">
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showForm(formId) {
+            // Hide all forms
+            const forms = document.querySelectorAll('.forms');
+            forms.forEach(form => form.style.display = 'none');
+
+            // Show the selected form
+            document.getElementById(formId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;
+}
+.user h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+.user-detail1{
+    text-align:center;
+    height: 500px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.place{
+    background-color:white;
+    height:220px ;
+    width:200px ;
+    padding-top: 5px;
+    border-radius: 10px;
+ }
+ .place img{
+    height: 215px;
+    width: 200px;
+    border-radius: 10px;
+}
+.detail2 h1 {
+    font-size:x-large;
+    text-align: center;
+    margin-top: 240px;
+    justify-content: center;
+}
+/* .detail2 h1{
+    margin-right: 100px;
+} */

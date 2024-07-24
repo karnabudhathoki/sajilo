@@ -1,0 +1,70 @@
+/* for contact us form*/
+.contactme p{
+    text-align: center;
+    font-size: 70px;
+    color:white;
+    padding: 50px;
+    background-color:cadetblue;
+}
+.banner{
+    background-color:floralwhite ;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 300px;
+    margin-left: -20px;
+
+ }
+ .contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+    background-color:floralwhite;
+}
+ 
+.form-container {
+    max-width: 35%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container h6 {
+    font-size:xx-small;
+    text-align: center;
+    padding-bottom: 5px;
+    line-height:0.5rem;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    width: 50%;
+    margin-left: 135px;
+    padding: 10px 20px;
+    background-color:chartreuse;
+    border: none;
+    color:black;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}

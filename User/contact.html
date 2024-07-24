@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sajilo Upaya</title>
+    <link rel="stylesheet" href="display.css" />
+    <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+    <nav>
+        <h2 class="logo">Sajilo<span>Upaya</span></h2>
+         <ul>
+            <li><a href="display.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+    </nav>
+    <div class="contactme">
+        <p>Contact Us</p>
+    </div>
+
+    <section class="banner">
+        <h1>
+          Talk to us
+        </h1>
+        <p>
+          We'd love to hear form you!
+          </p>
+      </section>
+
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Send Us Message</h2>
+            <form action="display.php" method="POST">
+ 
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+ 
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+ 
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
